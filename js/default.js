@@ -9,5 +9,5 @@ document.getElementById('form').onsubmit = function(){
 for(var i=0; i < word; i++){
   var ValueTable = document.createElement('ValueTable');
   ValueTable.textContent = i + 1;
-  document.getElementById('TableList').appendChild(ValueTable);
+  document.getElementById('list').appendChild(ValueTable);
 }
