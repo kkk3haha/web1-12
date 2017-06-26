@@ -8,11 +8,11 @@ for(var i=0; i < word; i++){
   ValueTable.textContent = i + 1;
   
   if(ValueTable.textContent % 3 ==0){
-    ValueTable.TextContent = 'Fizz' ;
+    ValueTable.TextContent ='Fizz';
   }else if(ValueTable.textContent % 5 == 0){
-    ValueTable.textContent ='Buzz' ;
+    ValueTable.textContent ='Buzz';
   }else if(ValueTable.textContent % 15 ==0){
-    ValueTable.textContent = 'Fizz Buzz!!';
+    ValueTable.textContent ='Fizz Buzz!!';
   }
   
   document.getElementById('list').appendChild(ValueTable);
