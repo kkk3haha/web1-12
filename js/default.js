@@ -8,7 +8,7 @@ for(var i=0; i < word; i++){
   ValueTable.textContent = i + 1;
   
   if(ValueTable.textContent % 3 == 0){
-    ValueTable.TextContent ='Fizz';
+    ValueTable.textContent ='Fizz';
   }else if(ValueTable.textContent % 5 == 0){
     ValueTable.textContent ='Buzz';
   }else if(ValueTable.textContent % 15 == 0){
