@@ -7,7 +7,7 @@ document.getElementById('form').onsubmit = function(){
 
 
 
-for(var i=0; i < word; i++){
+for(var i=0; i < 100; i++){
   var ValueTable = document.createElement('li');
   ValueTable.textContent = i + 1;
   document.getElementById('list').appendChild(ValueTable);
