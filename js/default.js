@@ -11,7 +11,7 @@ for(var i=0; i < word; i++){
     ValueTable.textContent ='Fizz';
   }else if(ValueTable.textContent % 5 == 0){
     ValueTable.textContent ='Buzz';
-  }else if(ValueTable.textContent % 15 == 0){
+  }else if(ValueTable.textContent % 3 == 0 && ValueTable.textContent % 5 == 0){
     ValueTable.textContent ='Fizz Buzz!!';
   }
   
