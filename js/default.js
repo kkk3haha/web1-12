@@ -2,7 +2,7 @@ var word;
 document.getElementById('form').onsubmit = function(){
   word=parseInt(document.getElementById('form').word.value);
   window.alert(document.getElementById('form').word.value);
-  return false;
+//  return false;
 };
 
 
