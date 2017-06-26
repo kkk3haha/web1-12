@@ -4,6 +4,8 @@ document.getElementById('form').onsubmit = function(){
   return false;
 };
 
+word = parseInt;
+
 for(var i=0; i < word; i++){
   var ValueTable = document.createElement('ValueTable');
   ValueTable.textContent = i;
