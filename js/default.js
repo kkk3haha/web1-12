@@ -1,6 +1,6 @@
 
-document.getElementById('inputform').onsubmit = function(){
-  window.alert(document.getElementById('inputform').valuetable.value);
+document.getElementById('form').onsubmit = function(){
+  window.alert(document.getElementById('form').word.value);
   return false;
 };
 
