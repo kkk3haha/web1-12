@@ -3,7 +3,7 @@ document.getElementById('inputform').onsubmit = function(){
   return false;
 };
 
-for(var i=0; i < valuetable.Length ; i++){
+for(var i=0; i < valuetable ; i++){
   var ValueTable = document.createElement('ValueTable');
   ValueTable.textContent = i;
   document.getElementById('TableList').appendChild('ValueTable');
