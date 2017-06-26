@@ -9,7 +9,7 @@ for(var i=0; i < word; i++){
   document.getElementById('list').appendChild(ValueTable);
 }
 
-//  return false;
+  return false;
 };
 
 
